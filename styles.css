@@ -64,29 +64,29 @@ footer {
 
 /* first section */
 .first_section {
-    /* height: 100vh; */
-    /* position: relative; */
+  /* height: 100vh; */
+  /* position: relative; */
 }
 
 .first_section .intro_text {
-    position: absolute;
-    top: 300px;
-    left: 30px;
+  position: absolute;
+  top: 300px;
+  left: 30px;
 }
 
 .intro_text h1 {
-    font-weight: bold;
-    /* font-size: 48px; */
-    font-size: 2.5rem;
-    line-height: 56px;
-    color: #FFFFFF;
+  font-weight: bold;
+  /* font-size: 48px; */
+  font-size: 2.5rem;
+  line-height: 56px;
+  color: #ffffff;
 }
 
 .intro_text p {
-    color: #FFFFFF;
-    font-weight: bold;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .intro_text span {
-    color: #ffb800;
+  color: #ffb800;
 }
