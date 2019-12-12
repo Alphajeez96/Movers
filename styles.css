@@ -1,20 +1,23 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 nav ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .link_2 {
-    background: #FFB800;
-    border-radius: 4px;
-    color: white;
+  background: #ffb800;
+  border-radius: 4px;
+  color: white;
+  position: fixed;
+  right: 10px;
 }
 
 .link_1 a {
-    color: #000000;
+  color: #000000;
+  margin-right: 80px;
 }
 
 .link_2 a {
@@ -22,7 +25,7 @@ nav ul li {
 }
 
 .logo img {
-    width: 170px;
+  width: 170px;
 }
 
 footer ul li {
@@ -30,26 +33,25 @@ footer ul li {
 }
 
 footer img {
-    width: 100px;
+  width: 100px;
 }
 
 footer p {
-    font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-color: #4F4F4F;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #4f4f4f;
 }
 
 footer {
-    border-top: 1px solid #F2F2F2;
-    margin-top: 20px;
+  border-top: 1px solid #f2f2f2;
 }
 
 .lower_footer ul {
-   font-family: Roboto;
-font-size: 12px;
-color:#4F4F4F;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #4f4f4f;
 }
 
 .link_two a {
@@ -57,9 +59,34 @@ color:#4F4F4F;
 }
 
 .link_three a {
-  color: #4F4F4F;
+  color: #4f4f4f;
 }
 
-.nav-item a {
-    padding: 10px;
+/* first section */
+.first_section {
+    /* height: 100vh; */
+    /* position: relative; */
+}
+
+.first_section .intro_text {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+
+.intro_text h1 {
+    font-weight: bold;
+    /* font-size: 48px; */
+    font-size: 2.5rem;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.intro_text p {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.intro_text span {
+    color: #ffb800;
 }
