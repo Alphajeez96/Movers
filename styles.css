@@ -66,11 +66,15 @@ footer {
 .first_section {
   /* height: 100vh; */
   /* position: relative; */
+  background-position: center;
+  height: 607px;
+  background-image: url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576163777/image_1_d4zjmf.png");
 }
 
-.first_section .intro_text {
+.intro_text {
   position: absolute;
-  top: 300px;
+  /* top: 300px; */
+  margin-top: 220px;
   left: 30px;
 }
 
@@ -89,4 +93,15 @@ footer {
 
 .intro_text span {
   color: #ffb800;
+}
+
+/* next move container */
+.next-move {
+  position: absolute;
+left: 40px;
+right: 40px;
+margin-top: -100px;
+background: #FFFFFF;
+box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
+border-radius: 4px;
 }
