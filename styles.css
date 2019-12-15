@@ -2,10 +2,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   overflow-x: hidden;
-  font-family: 'Roboto',
-  sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 nav ul li {
   list-style-type: none;
@@ -71,20 +70,20 @@ footer {
   background: rgba(0, 0, 0, 0.37);
   background-position: center;
   height: 607px;
-  background-image: linear-gradient(to bottom, rgba(46, 53, 48, 0.52), rgba(27, 25, 27, 0.73)),
-  url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576163777/image_1_d4zjmf.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 53, 48, 0.52),
+      rgba(27, 25, 27, 0.73)
+    ),
+    url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576163777/image_1_d4zjmf.png");
 }
 
 .intro_text {
-  /* position: absolute; */
-  /* top: 300px; */
   margin-top: 220px;
-  /* left: 30px; */
 }
 
 .intro_text h1 {
   font-weight: bold;
-  /* font-size: 48px; */
   font-size: 2.5rem;
   line-height: 56px;
   color: #ffffff;
@@ -102,12 +101,12 @@ footer {
 /* next move container */
 .next-move {
   position: absolute;
-left: 40px;
-right: 40px;
-margin-top: -100px;
-background: #FFFFFF;
-box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
-border-radius: 4px;
+  left: 40px;
+  right: 40px;
+  margin-top: -100px;
+  background: #ffffff;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 
 /* movers */
@@ -123,22 +122,25 @@ border-radius: 4px;
 
 .movers-text p {
   font-size: 18px;
-  color: #4F4F4F;
+  color: #4f4f4f;
 }
 
 .movers-text h2 {
-font-weight: normal;
-color: #4F4F4F;
-font-size: 48px;
+  font-weight: normal;
+  color: #4f4f4f;
+  font-size: 48px;
 }
 
 /* services-intro */
-
 .services-bg {
   height: 393px;
   margin-bottom: 100px;
-  background-image: linear-gradient(to bottom, rgba(255, 188, 2, 0.52), rgba(255, 209, 6, 0.73)),
-  url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576346297/image_3_1_n2jbwk.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 188, 2, 0.52),
+      rgba(255, 209, 6, 0.73)
+    ),
+    url("https://res.cloudinary.com/elijjaaahhhh/image/upload/v1576346297/image_3_1_n2jbwk.png");
 }
 
 .services-intro h2 {
@@ -146,7 +148,7 @@ font-size: 48px;
   color: #ffffff;
 }
 
-/*  */
+/* choose-movers */
 .choose-movers {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -186,13 +188,13 @@ p {
   font-size: 14px;
 }
 
-/*  */
+/* services */
 .services p {
   color: #4f4f4f;
   font-size: 24px;
 }
 
-/*  */
+/* footer */
 .footer {
   margin-top: 100px;
 }
@@ -200,4 +202,24 @@ p {
 .social-links {
   height: 5vh;
   width: 5vh;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
 }
